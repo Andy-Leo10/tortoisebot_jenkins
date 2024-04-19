@@ -1,0 +1,11 @@
+Started by user [8mha:////4BQWxmMo94CbC+skG9cGjCoRQ6OPQ44E10RwjbGkJ78+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /home/user/webpage_ws/jenkins/workspace/docker
+[docker] $ /bin/sh -xe /tmp/jenkins16344389796170569082.sh
++ echo '----------> previous commands'
+----------> previous commands
++ docker ps
+IMAGE      CREATED     STATUS     NAMES
++ echo '----------> post		 commands'
+----------> post		 commands
+Finished: SUCCESS

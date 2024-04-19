@@ -17,8 +17,15 @@
 ls
 bash check_docker.sh
 
-# Stop all running Docker containers and remove all stopped containers
-docker kill $(docker ps -aq) &amp;&gt; /dev/null;
+# Get the IDs of all running Docker containers
+container_ids=$(docker ps -q)
+# If there are any running Docker containers, kill them
+if [ ! -z &quot;$container_ids&quot; ]
+then
+    docker kill $container_ids
+fi
+
+# Remove all stopped containers
 docker container prune -f</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

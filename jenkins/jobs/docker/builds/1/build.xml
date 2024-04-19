@@ -12,15 +12,15 @@
       </causeBag>
     </hudson.model.CauseAction>
   </actions>
-  <queueId>19</queueId>
-  <timestamp>1713477233822</timestamp>
-  <startTime>1713477233827</startTime>
+  <queueId>20</queueId>
+  <timestamp>1713532483171</timestamp>
+  <startTime>1713532483177</startTime>
   <result>FAILURE</result>
-  <duration>66</duration>
+  <duration>61</duration>
   <charset>US-ASCII</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>
-  <workspace>/home/user/webpage_ws/jenkins/workspace/ros1_auto</workspace>
+  <workspace>/home/user/webpage_ws/jenkins/workspace/docker</workspace>
   <hudsonVersion>2.375.1</hudsonVersion>
   <scm class="hudson.scm.NullChangeLogParser"/>
   <culprits class="java.util.Collections$UnmodifiableSet">
