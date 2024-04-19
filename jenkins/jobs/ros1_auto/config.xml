@@ -1,0 +1,48 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>ROS1 CI</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /home/user/webpage_ws/ros1_automation/
+ls
+bash check_docker.sh
+
+# Stop all running Docker containers and remove all stopped containers
+docker kill $(docker ps -aq) &amp;&gt; /dev/null;
+docker container prune -f</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>cd
+source /opt/ros/noetic/setup.bash
+source catkin_ws/devel/setup.bash
+
+# Check X11 display settings
+ls -la /tmp/.X11-unix/
+echo $DISPLAY
+# Remove access control restrictions
+xhost +local:root
+
+sudo usermod -aG docker $USER</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>cd /home/user/webpage_ws/ros1_automation/
+ls
+bash docker_commands.sh</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
