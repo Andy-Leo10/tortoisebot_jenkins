@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-22 14:37:00.718 UTC</timestamp>
+  <md5sum>8b299b1832e85c4cb0c121fd553c178c</md5sum>
+  <fileName>Credential id=62cc39a1-0497-4fee-ab64-e07d9ec2f9eb name=user (Jenkins CP24 key)</fileName>
+  <usages>
+    <entry>
+      <string>ros1_auto</string>
+      <ranges>23-37</ranges>
+    </entry>
+    <entry>
+      <string>hello</string>
+      <ranges>1-8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

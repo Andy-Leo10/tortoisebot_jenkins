@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>script-security</artifactId>
-  <version>1269.v639888f5e366</version>
+  <version>1335.vf07d9ce377a_e</version>
   <packaging>hpi</packaging>
   <name>Script Security Plugin</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -19,7 +19,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/script-security-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/script-security-plugin.git</developerConnection>
-    <tag>639888f5e36630a7700fe49afc7682690ef4bf3e</tag>
+    <tag>f07d9ce377aefdad4794a520effe20638983124b</tag>
     <url>https://github.com/jenkinsci/script-security-plugin</url>
   </scm>
   <distributionManagement>
@@ -48,7 +48,7 @@
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>caffeine-api</artifactId>
-      <version>2.9.3-65.v6a_47d0f4d1fe</version>
+      <version>3.1.8-133.v17b_1ff2e0599</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
@@ -57,7 +57,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.48</version>
+        <version>3.53</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

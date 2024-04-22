@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-22 14:10:00.735 UTC</timestamp>
+  <md5sum>38a1e936dbefe31261be834b77d87334</md5sum>
+  <fileName>Credential id=31c28f4c-2db3-4978-926c-fa1f29d54b32 name=user (Jenkins checkpoint SSH key)</fileName>
+  <usages>
+    <entry>
+      <string>ros1_auto</string>
+      <ranges>23</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo pkill -f gzserver
+sudo pkill -f gzclient
+
 # Check if Docker is installed
 if ! command -v docker &> /dev/null
 then
@@ -17,6 +20,7 @@ then
 else
     echo "Docker is already installed."
     sudo chmod 666 /var/run/docker.sock
-    sudo apt-get update
-    sudo apt-get install x11-xserver-utils
 fi
+
+sudo apt-get update
+sudo apt-get install x11-xserver-utils

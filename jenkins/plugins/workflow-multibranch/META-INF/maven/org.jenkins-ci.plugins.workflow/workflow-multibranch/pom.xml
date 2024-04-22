@@ -27,7 +27,7 @@ THE SOFTWARE.
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins.workflow</groupId>
   <artifactId>workflow-multibranch</artifactId>
-  <version>746.v05814d19c001</version>
+  <version>773.vc4fe1378f1d5</version>
   <packaging>hpi</packaging>
   <name>Pipeline: Multibranch</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -42,7 +42,7 @@ THE SOFTWARE.
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/workflow-multibranch-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/workflow-multibranch-plugin.git</developerConnection>
-    <tag>05814d19c0011bbe8caab16a208b56ea2334c866</tag>
+    <tag>c4fe1378f1d5cc98b2ef433e629b3f6fd3f4b08b</tag>
     <url>https://github.com/jenkinsci/workflow-multibranch-plugin</url>
   </scm>
   <distributionManagement>
@@ -65,70 +65,70 @@ THE SOFTWARE.
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-job</artifactId>
-      <version>1282.ve6d865025906</version>
+      <version>1385.vb_58b_86ea_fff1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-support</artifactId>
-      <version>839.v35e2736cfd5c</version>
+      <version>865.v43e78cc44e0d</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-cps</artifactId>
-      <version>3624.v43b_a_38b_62b_b_7</version>
+      <version>3832.vc43e04d6d68c</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>scm-api</artifactId>
-      <version>631.v9143df5b_e4a_a</version>
+      <version>676.v886669a_199a_a_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>branch-api</artifactId>
-      <version>2.1071.v1a_188a_562481</version>
+      <version>2.1128.v717130d4f816</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>cloudbees-folder</artifactId>
-      <version>6.758.vfd75d09eea_a_1</version>
+      <version>6.858.v898218f3609d</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-api</artifactId>
-      <version>1208.v0cc7c6e0da_9e</version>
+      <version>1283.v99c10937efcb_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-scm-step</artifactId>
-      <version>400.v6b_89a_1317c9a_</version>
+      <version>415.v434365564324</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>script-security</artifactId>
-      <version>1229.v4880b_b_e905a_6</version>
+      <version>1305.v487433146192</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>ionicons-api</artifactId>
+      <version>56.v1b_1c8c49374e</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
-  <repositories>
-    <repository>
-      <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
-    </repository>
-  </repositories>
   <build>
     <plugins>
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.43</version>
+        <version>3.51</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

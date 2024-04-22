@@ -4,7 +4,7 @@ Build-Jdk-Spec: 11
 Specification-Title: SCM API Plugin
 Specification-Version: 0.0
 Implementation-Title: SCM API Plugin
-Implementation-Version: 676.v886669a_199a_a_
+Implementation-Version: 689.v237b_6d3a_ef7f
 Group-Id: org.jenkins-ci.plugins
 Artifact-Id: scm-api
 Short-Name: scm-api
@@ -12,17 +12,18 @@ Long-Name: SCM API Plugin
 Url: https://github.com/jenkinsci/scm-api-plugin/blob/master/docs/consum
  er.adoc
 Compatible-Since-Version: 2.0.0
-Plugin-Version: 676.v886669a_199a_a_
-Hudson-Version: 2.361.4
-Jenkins-Version: 2.361.4
-Plugin-Dependencies: structs:324.va_f5d6774f3a_d
+Plugin-Version: 689.v237b_6d3a_ef7f
+Hudson-Version: 2.426.3
+Jenkins-Version: 2.426.3
+Plugin-Dependencies: asm-api:9.6-3.v2e1fa_b_338cd7,structs:337.v1b_04ea_
+ 4df7c8
 Plugin-Developers: 
 Plugin-License-Name: The MIT license
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/scm-api-plugi
  n.git
-Plugin-ScmTag: 886669a199aa30665f70efe21abb5a3f49fe4b04
+Plugin-ScmTag: 237b6d3aef7f00047f21da13e09dc6d9d3764be2
 Plugin-ScmUrl: https://github.com/jenkinsci/scm-api-plugin
-Plugin-GitHash: 886669a199aa30665f70efe21abb5a3f49fe4b04
-Implementation-Build: 886669a199aa30665f70efe21abb5a3f49fe4b04
+Plugin-GitHash: 237b6d3aef7f00047f21da13e09dc6d9d3764be2
+Implementation-Build: 237b6d3aef7f00047f21da13e09dc6d9d3764be2
 

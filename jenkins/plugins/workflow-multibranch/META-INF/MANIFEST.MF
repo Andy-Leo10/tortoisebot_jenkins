@@ -4,28 +4,28 @@ Build-Jdk-Spec: 11
 Specification-Title: Pipeline: Multibranch
 Specification-Version: 0.0
 Implementation-Title: Pipeline: Multibranch
-Implementation-Version: 746.v05814d19c001
+Implementation-Version: 773.vc4fe1378f1d5
 Group-Id: org.jenkins-ci.plugins.workflow
 Artifact-Id: workflow-multibranch
 Short-Name: workflow-multibranch
 Long-Name: Pipeline: Multibranch
 Url: https://github.com/jenkinsci/workflow-multibranch-plugin
-Plugin-Version: 746.v05814d19c001
-Hudson-Version: 2.361.4
-Jenkins-Version: 2.361.4
-Plugin-Dependencies: workflow-api:1208.v0cc7c6e0da_9e,workflow-cps:3624.
- v43b_a_38b_62b_b_7,workflow-job:1282.ve6d865025906,workflow-scm-step:40
- 0.v6b_89a_1317c9a_,workflow-step-api:639.v6eca_cd8c04a_a_,workflow-supp
- ort:839.v35e2736cfd5c,branch-api:2.1071.v1a_188a_562481,cloudbees-folde
- r:6.758.vfd75d09eea_a_1,scm-api:631.v9143df5b_e4a_a,script-security:122
- 9.v4880b_b_e905a_6
+Plugin-Version: 773.vc4fe1378f1d5
+Hudson-Version: 2.414.3
+Jenkins-Version: 2.414.3
+Plugin-Dependencies: ionicons-api:56.v1b_1c8c49374e,workflow-api:1283.v9
+ 9c10937efcb_,workflow-cps:3832.vc43e04d6d68c,workflow-job:1385.vb_58b_8
+ 6ea_fff1,workflow-scm-step:415.v434365564324,workflow-step-api:639.v6ec
+ a_cd8c04a_a_,workflow-support:865.v43e78cc44e0d,branch-api:2.1128.v7171
+ 30d4f816,cloudbees-folder:6.858.v898218f3609d,scm-api:676.v886669a_199a
+ _a_,script-security:1305.v487433146192
 Plugin-Developers: 
 Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/workflow-mult
  ibranch-plugin.git
-Plugin-ScmTag: 05814d19c0011bbe8caab16a208b56ea2334c866
+Plugin-ScmTag: c4fe1378f1d5cc98b2ef433e629b3f6fd3f4b08b
 Plugin-ScmUrl: https://github.com/jenkinsci/workflow-multibranch-plugin
-Plugin-GitHash: 05814d19c0011bbe8caab16a208b56ea2334c866
-Implementation-Build: 05814d19c0011bbe8caab16a208b56ea2334c866
+Plugin-GitHash: c4fe1378f1d5cc98b2ef433e629b3f6fd3f4b08b
+Implementation-Build: c4fe1378f1d5cc98b2ef433e629b3f6fd3f4b08b
 

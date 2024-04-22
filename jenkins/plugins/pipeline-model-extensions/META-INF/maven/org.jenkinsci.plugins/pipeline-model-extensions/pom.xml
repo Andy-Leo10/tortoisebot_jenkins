@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkinsci.plugins</groupId>
   <artifactId>pipeline-model-extensions</artifactId>
-  <version>2.2133.ve46a_6113dfc3</version>
+  <version>2.2198.v41dd8ef6dd56</version>
   <packaging>hpi</packaging>
   <name>Pipeline: Declarative Extension Points API</name>
   <description>APIs for extension points used in Declarative Pipelines</description>
@@ -49,7 +49,7 @@
   <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
     <connection>scm:git:https://github.com/jenkinsci/pipeline-model-definition-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/pipeline-model-definition-plugin.git</developerConnection>
-    <tag>e46a6113dfc354855bb7981ba0b1134f39c4757a</tag>
+    <tag>41dd8ef6dd561452755641a2a3c76e69e9b2d0cb</tag>
     <url>https://github.com/jenkinsci/pipeline-model-definition-plugin</url>
   </scm>
   <distributionManagement>
@@ -66,31 +66,31 @@
     <dependency>
       <groupId>org.jenkinsci.plugins</groupId>
       <artifactId>pipeline-model-api</artifactId>
-      <version>2.2133.ve46a_6113dfc3</version>
+      <version>2.2198.v41dd8ef6dd56</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-cps</artifactId>
-      <version>3659.v582dc37621d8</version>
+      <version>3826.v3b_5707fe44da_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-job</artifactId>
-      <version>1289.vd1c337fd5354</version>
+      <version>1385.vb_58b_86ea_fff1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials</artifactId>
-      <version>1189.vf61b_a_5e2f62e</version>
+      <version>1311.vcf0a_900b_37c2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials-binding</artifactId>
-      <version>604.vb_64480b_c56ca_</version>
+      <version>642.v737c34dea_6c2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -100,24 +100,12 @@
       <scope>compile</scope>
     </dependency>
   </dependencies>
-  <repositories>
-    <repository>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
-    </repository>
-  </repositories>
   <build>
     <plugins>
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.43</version>
+        <version>3.53</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

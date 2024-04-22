@@ -1,0 +1,10 @@
+commit 3e0cd55e5116cd7a92a01f1952ffc6a0b9d06abc
+tree 3d40b9b3f318144eb17b9f266b9c911178192a5d
+parent 5acb00fcbd5b891cfe2f01012b3dc3c4fb789df8
+author Andy-Leo10 <andres.alamo@pucp.edu.pe> 2024-04-22 15:17:58 +0000
+committer Andy-Leo10 <andres.alamo@pucp.edu.pe> 2024-04-22 15:17:58 +0000
+
+    --
+
+
+:100644 100644 7c3e9fadabdef7316b05b1686af48dc477540449 bdc805add82d17e10450a492b0c0f9e8bb3ed13b M	README.md
