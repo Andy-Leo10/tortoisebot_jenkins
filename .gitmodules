@@ -1,3 +1,6 @@
 [submodule "tortoisebot_ros1_ci"]
 	path = tortoisebot_ros1_ci
 	url = https://github.com/Andy-Leo10/tortoisebot_ros1_ci.git
+[submodule "tortoisebot_ros2_ci-"]
+	path = tortoisebot_ros2_ci-
+	url = https://github.com/Andy-Leo10/tortoisebot_ros2_ci-.git
