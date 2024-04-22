@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-22 18:24:00.717 UTC</timestamp>
+  <md5sum>2d295aad2197865b4a37e182904352fc</md5sum>
+  <fileName>Credential id=a91ce451-b1aa-4046-ab8e-af41a166a445 name=user2 (Jenkins SSH key for ROS2)</fileName>
+  <usages>
+    <entry>
+      <string>ros2_auto</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

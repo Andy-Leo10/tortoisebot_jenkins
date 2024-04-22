@@ -6,11 +6,15 @@
   <usages>
     <entry>
       <string>ros1_auto</string>
-      <ranges>23-37</ranges>
+      <ranges>23-39</ranges>
     </entry>
     <entry>
       <string>hello</string>
       <ranges>1-8</ranges>
+    </entry>
+    <entry>
+      <string>ros2_auto</string>
+      <ranges>1</ranges>
     </entry>
   </usages>
   <facets/>

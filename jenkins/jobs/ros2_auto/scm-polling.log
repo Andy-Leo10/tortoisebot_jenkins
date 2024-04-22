@@ -1,0 +1,14 @@
+Started on Apr 22, 2024, 7:16:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 031a70256186e9c030c927052781b0a2951262e3 (origin/main)
+The recommended git tool is: NONE
+using credential a91ce451-b1aa-4046-ab8e-af41a166a445
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials Jenkins SSH key for ROS2
+Verifying host key using known hosts file
+ > git ls-remote -h -- git@github.com:Andy-Leo10/tortoisebot_ros2_ci-.git # timeout=10
+Found 1 remote heads on git@github.com:Andy-Leo10/tortoisebot_ros2_ci-.git
+[poll] Latest remote head revision on refs/heads/main is: 031a70256186e9c030c927052781b0a2951262e3 - already built by 5
+Done. Took 0.32 sec
+No changes

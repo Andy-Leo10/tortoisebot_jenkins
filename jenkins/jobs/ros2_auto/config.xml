@@ -1,15 +1,15 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description>ROS1 CI</description>
+  <description>ROS2 CI</description>
   <keepDependencies>false</keepDependencies>
   <properties/>
   <scm class="hudson.plugins.git.GitSCM" plugin="git@5.2.1">
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <url>git@github.com:Andy-Leo10/tortoisebot_ros1_ci.git</url>
-        <credentialsId>62cc39a1-0497-4fee-ab64-e07d9ec2f9eb</credentialsId>
+        <url>git@github.com:Andy-Leo10/tortoisebot_ros2_ci-.git</url>
+        <credentialsId>a91ce451-b1aa-4046-ab8e-af41a166a445</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -34,7 +34,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /home/user/webpage_ws/ros1_automation/
+      <command>cd /home/user/webpage_ws/ros2_automation/
 ls
 bash check_docker.sh
 
@@ -52,8 +52,8 @@ docker container prune -f</command>
     </hudson.tasks.Shell>
     <hudson.tasks.Shell>
       <command>cd
-source /opt/ros/noetic/setup.bash
-source catkin_ws/devel/setup.bash
+source /opt/ros/galactic/setup.bash
+source ros2_ws/install/setup.bash
 
 # Check X11 display settings
 ls -la /tmp/.X11-unix/
@@ -65,7 +65,7 @@ sudo usermod -aG docker $USER</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
     <hudson.tasks.Shell>
-      <command>cd /home/user/webpage_ws/ros1_automation/
+      <command>cd /home/user/webpage_ws/ros2_automation/
 ls
 bash docker_commands.sh</command>
       <configuredLocalRules/>

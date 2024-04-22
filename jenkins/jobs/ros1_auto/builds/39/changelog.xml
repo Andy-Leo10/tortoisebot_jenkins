@@ -1,0 +1,10 @@
+commit 8b3fbc9e5c382467f15abe4a4b0cd8b37dbdcd7a
+tree 05032a9f9bcbc083336e63fb4bfc6f51c08b703c
+parent fbb934ebd33df5403f57851e6a9f2249b7a91481
+author Andy-Leo10 <andres.alamo@pucp.edu.pe> 2024-04-22 14:05:19 -0500
+committer Andy-Leo10 <andres.alamo@pucp.edu.pe> 2024-04-22 14:05:19 -0500
+
+    Update README.md with video usage instructions
+
+
+:100644 100644 88932245bc471bf00a823cd1b9528ff67b44e8e1 ec41e54341e72380fdf6d9a726b4eea0e437759d M	README.md
